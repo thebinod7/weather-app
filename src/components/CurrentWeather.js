@@ -41,7 +41,7 @@ const CurrentWeather = ({ currentWeather }) => {
 				</Typography>
 
 				<Typography variant="body1" color="textSecondary">
-					Speed: {current?.wind_mph} mph
+					Wind: {current?.wind_mph} mph
 				</Typography>
 			</CardContent>
 		</WeatherCardWrapper>
