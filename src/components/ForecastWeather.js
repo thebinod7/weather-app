@@ -62,7 +62,7 @@ const HourlyForecast = ({ forecasts }) => {
 									Humidity: {forecast.humidity}%
 								</ForecastHumidity>
 								<ForecastHumidity variant="body2">
-									Pressure: {forecast.wind_mph} mph
+									Wind Speed: {forecast.wind_mph} mph
 								</ForecastHumidity>
 							</ForecastCardContent>
 						</ForecastCard>

@@ -32,19 +32,16 @@ const CurrentWeather = ({ currentWeather }) => {
 					alt="Weather Icon"
 				/>
 
-				{/* Temperature */}
 				<Typography variant="h5" component="h2">
 					{current?.feelslike_c}°C
 				</Typography>
 
-				{/* Humidity */}
 				<Typography variant="body1" color="textSecondary">
 					Humidity: {current?.humidity}%
 				</Typography>
 
-				{/* Pressure */}
 				<Typography variant="body1" color="textSecondary">
-					Pressure: {current?.pressure_mph}mph
+					Wind Speed: {current?.wind_mph} mph
 				</Typography>
 			</CardContent>
 		</WeatherCardWrapper>
